@@ -1,0 +1,43 @@
+name: sample_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  go_router_flow: ^6.2.0
+  google_fonts: ^4.0.3
+  intl: ^0.17.0
+  sliver_tools: ^0.2.9
+  dartz: ^0.10.1
+  provider: ^6.0.5
+  get_it: ^7.2.0
+  freezed_annotation: ^2.2.0
+  mocktail: ^0.3.0
+  # <<< DRIFT DATABASE
+  drift: ^2.5.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.2
+  # DRIFT DATABASE >>>
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  drift_dev: ^2.5.2
+  freezed: ^2.3.2
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - google_fonts/

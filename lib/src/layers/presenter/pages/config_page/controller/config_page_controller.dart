@@ -5,19 +5,7 @@ import 'package:sample_project/src/layers/controllers/global_shared_controller/i
 import 'package:sample_project/src/layers/data/models/config_model.dart';
 import 'package:sample_project/src/layers/data/repositories/config_repository.dart';
 
-class ConfigPageState {
-  final bool isLoading;
-  ConfigPageState({
-    this.isLoading = false,
-  });
-  ConfigPageState copyWith({
-    bool? isLoading,
-  }) {
-    return ConfigPageState(
-      isLoading: isLoading ?? this.isLoading,
-    );
-  }
-}
+import 'config_page_state.dart';
 
 class ConfigPageController extends ValueNotifier<ConfigPageState> {
   final ConfigRepository _configRepository;

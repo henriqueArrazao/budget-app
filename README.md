@@ -61,6 +61,7 @@ lib
             │   ├── config_page
             │   │   ├── config_page.dart
             │   │   ├── controller
+            │   │   │   └── config_page_state.dart
             │   │   │   └── config_page_controller.dart
             │   │   └── widgets
             │   │       └── config_info.dart
